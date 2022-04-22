@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+     <!-- Link Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper/swiper-bundle.min.css"
+   />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#home">&ltvitor<span>Scheffer</span>&gt</a>
+        <div class="toggleDark">
+          <i class="icon-moon">
+          <i class="icon-sun"></i>
+        </i></div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="nav_link title" href="#home"><i class="icon-home"></i> Home</a></li>
+            <li><a class="nav_link title" href="#about"><i class="icon-user"></i> About</a></li>
+            <li><a class="nav_link title" href="#skills"><i class="icon-file-text"></i> Skills</a></li>
+            <li><a class="nav_link title" href="#projects"><i class="icon-image"></i> Projects</a></li>
+            <li><a class="nav_link title" href="#contact"><i class="icon-phone-forwarded"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="toggleMenu icon-grid"></div>
+        <div class="toggleMenu icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+            <div class="home_social">
+              <div class="icons-social">
+                <div class="github">
+                  <a href="https://github.com/vitor-scheffer" target="_blank"
+                    ><i class="icon-github"></i
+                  ></a>
+                </div>
+                <div class="linkedin">
+                  <a
+                    href="https://www.linkedin.com/in/vitor-s-225763140/"
+                    target="_blank"
+                    ><i class="icon-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="img-draw">
+                <img src="assets/undraw_programming_re_kg9v.svg" alt="">
+              </div>
+            </div>
+          <div class="text">
+            <h2 class="title">Hello, I'm Vitor Scheffer</h2>
+            <p>A Front-End Developer.</p>
+            <p>
+              I created my portfolio to show the beginning of my journey and to
+              record my projects.
+            </p>
+            <a
+            href="assets/CURRICULO TI.pdf" download="CURRICULO TI.pdf"
+            class="button"
+            target="_blank"
+            ><i class="icon-download"></i>Download CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section qualification" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="assets/images/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg"
+              alt="Três mulheres sorrindo em um salão de beleza."
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">About Me</h2>
+        <div class="container">
+          <div class="qualification_tabs">
+            <div
+              class="qualification_button title"
+              data-target="#education"
+            >
+              <i class="icon-study"></i>
+              Education
+            </div>
+            <div class="qualification_button title" data-target="#courses">
+              <i class="icon-briefcase"></i>
+              Courses
+            </div>
+          </div>
+
+          <div class="qualification_sections">
+            <div
+              class="qualification_content qualification_active"
+              data-content
+              id="education"
+            >
+              <!--==================== EDUCATION 1 ====================-->
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">
+                    Ensino Médio Integrado Técnico
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >Insituto Federal Sul Rio-Grandense</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="icon-calendar"></i>
+                    2016 - 2019
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+
+              <!--==================== EDUCATION 2 ====================-->
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>        
+                </div>
+
+                <div>
+                  <h3 class="qualification_title">Análise e Desenvolvimento de Sistemas</h3>
+                  <span class="qualification_subtitle">Universidade Estácio</span>
+                  <div class="qualification_calendar">
+                    <i class="icon-calendar"></i>
+                    2022 - Current
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!--==================== COURSES ====================-->
+            <div class="qualification_content" data-content id="courses">
+              <!--==================== COURSE 1 ====================-->
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">Lógica de Programação</h3>
+                  <span class="qualification_subtitle"
+                    >Instituto Federal Sul Rio-Grandense</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="icon-calendar"></i>
+                    2021 - 2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+
+              <!--==================== COURSE 2 ====================-->
+              <div class="qualification_data">
+                <br>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification_title">Javascript</h3>
+                  <span class="qualification_subtitle"
+                    >Instituto Federal Sul Rio-Grandense</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="icon-calendar"></i>
+                    2021 - 2022
+                  </div>
+                </div>
+              </div>
+
+               <!--==================== COURSE 3 ====================-->
+               <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">Desenvolvimento Web</h3>
+                  <span class="qualification_subtitle"
+                    >Rocketseat</span
+                  >
+                  <div class="qualification_calendar">
+                    <i class="icon-calendar"></i>
+                    2021 - Current
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- SKILLS -->
+      <section class="section" id="skills">
+        <div class="container">
+          <header>
+            <h2 class="title">Skills</h2>
+          </header>
+          
+          <!-- Swiper -->
+          <div class="swiperTwo mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="one">
+                  <div class="card">
+                    <i class="icon-html5"></i>
+                    <h3 class="title">HTML</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="two">
+                  <div class="card">
+                    <i class="icon-css3"></i>
+                    <h3 class="title">CSS</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="three">
+                  <div class="card">
+                    <i class="icon-javascript"></i>
+                    <h3 class="title">JavaScript</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- PROJECTS -->
+      <section class="section" id="projects">
+        <div class="container">
+          <header>
+            <h2 class="title">Projects</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <a href="https://vitor-scheffer.github.io/beautysalon/"
+                  target="_blank">
+                    <img src="assets/images/Capa.png" alt="Foto do projeto beautysalon" />
+                  </a>
+                  <cite>
+                    <a href="https://vitor-scheffer.github.io/beautysalon/"
+                    target="_blank">
+                    <i class="icon-log-in"></i>
+                    </a>
+                    <a href="https://github.com/vitor-scheffer/beautysalon"
+                    target="_blank">
+                      <i class="icon-github"></i>
+                    </a>
+                    Project beautysalon. developed in NLW (Rockseat).
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <a href="http://">
+                    <img src="assets/images/Capa portfólio.png" alt="Foto do projeto portfólio" />
+                  </a>
+                  <cite>
+                    <a href=""><i class="icon-log-in"></i></a>
+                    <a href=""><i class="icon-github"></i></a>
+                    Project portfólio developed by me.
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Contact Me!</h2>
+            <p>
+              Contact me if you want know more about me or ask any questions.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=5551989437119&text=Olá, gostaria de saber mais sobre o seu trabalho!"
+              class="button contact"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Contact me</a>
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li>
+                <p href="#"><i class="icon-phone"></i>51 98943-7119</p>
+              </li>
+              <li>
+                <p href="#">
+                  <i class="icon-map-pin"></i>R. Querino de Andrade, 77
+                </p>
+              </li>
+              <li>
+                <p href="#">
+                  <i class="icon-mail"></i>vitorscheffer61@gmail.com
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHATSAPP FLOAT -->
+      <div id="whatsapp-button">
+        <i class="icon-close"></i>
+        <a
+          href="https://api.whatsapp.com/send?phone=5551989437119&text=Olá, gostaria de saber mais sobre o seu trabalho!"
+          class="whatsapp-button"
+          target="_blank"
+        >
+          <img
+            src="https://i.ibb.co/VgSspjY/whatsapp-button.png"
+            alt="botão whatsapp"
+          />
+        </a>
+      </div>
+
+      <!-- BACK-TO-TOP -->
+      <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+      <div class="divider-2"></div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#">&lt/vitor<span>Scheffer</span>&gt</a>
+          <p>©2022 Vitor Scheffer.</p>
+          <p>All rights reserved.</p>
+        </div>
+
+        <div class="social">
+          <a href="https://github.com/vitor-scheffer" target="_blank"
+            ><i class="icon-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/vitor-s-225763140/"
+            target="_blank"
+            ><i class="icon-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/_vitorscheffer/" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- MAIN.JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
