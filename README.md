@@ -1,7 +1,7 @@
 Projeto do meu portfólio pessoal mostrando meus repositórios e minha jornada de aprendizado.
 
 <a href="https://portfolio-murex-chi.vercel.app/" target="_blank">
-  <img src='![Capa portfólio](https://user-images.githubusercontent.com/103120313/181872470-91c742cc-8b34-48e2-a671-49250b7ce11e.png)'></img>
+  ![Capa portfólio](https://user-images.githubusercontent.com/103120313/181872470-91c742cc-8b34-48e2-a671-49250b7ce11e.png)
 </a>
 
 O site pode ser acessado em: https://portfolio-murex-chi.vercel.app/
