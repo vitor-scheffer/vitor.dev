@@ -11,9 +11,14 @@ O site pode ser acessado em: https://portfolio-murex-chi.vercel.app/
 
 
 🛠 Tecnologias utilizadas
-Javascript
-HTML
-CSS
-Swiper JS
-API Whatsapp
+<ul>
+  <li>Javascript</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Swiper JS</li>
+  <li>API Whatsapp</li>
+</ul>
+
+
+
 
