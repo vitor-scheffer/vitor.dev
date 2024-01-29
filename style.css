@@ -43,16 +43,79 @@ html {
 }
 
 body {
+  color: var(--body-color);
+  background: black;
   font: 400 1rem 'DM Sans', sans-serif;
-  color: var(--text-color);
-  background: var(--body-color);
   -webkit-font-smoothing: antialiased;
   transition: .5s;
 }
 
-.title {
-  font: 700 1.875rem 'Poppins', sans-serif;
+body.active {
+  color: var(--text-color);
+  background: var(--body-color);
+}
+
+body.active .title {
   color: var(--title-color);
+}
+
+body.active .button {
+  box-shadow: 0px 0px 0px
+}
+
+body.active nav ul li a:hover,
+body.active nav ul li a.active {
+  color: var(--base-color);
+}
+
+body.active #header {
+  border-bottom: 1px solid #e4e4e4;
+  background-color: var(--body-color);
+  transition: .5s;
+}
+
+body.active #about {
+  background-color: var(--body-color2);
+  transition: background-color .5s;
+}
+
+body.active #skills .swiper-slide {
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
+}
+
+body.active #skills .swiper-slide:nth-child(1n),
+#skills .swiper-slide:nth-child(2n),
+#skills .swiper-slide:nth-child(3n) {
+  background-color: var(--title-color);
+}
+
+body.active #projects {
+  background-color: var(--body-color2);
+  transition: background-color .5s;
+}
+
+body.active #projects blockquote {
+  border-radius: 1rem;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1)
+}
+
+body.active #header .logo {
+  color: var(--title-color);
+  transition: .5s; 
+}
+
+body.active #header.scroll {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
+body.active #contact ul li p {
+  color: var(--text-color-light);
+}
+
+.title {
+  color: var(--body-color);
+  transition: color .5s;
+  font: 700 1.875rem 'Poppins', sans-serif;
 }
 
 .button {
@@ -65,6 +128,7 @@ body {
   border-radius: 0.5rem;
   font: 500 1rem "DM Sans", sans-serif;
   transition: background .3s;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
 }
 
 .button:hover {
@@ -159,73 +223,8 @@ nav.toggle .icon-moon {
   visibility: hidden;
 }
 
-body.active {
-  color: var(--body-color);
-  background: black;
-  transition: .5s;
-}
-
-body.active .title {
-  color: var(--body-color);
-  transition: color .5s;
-}
-
-body.active .button {
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
-}
-
-body.active nav ul li a:hover,
-body.active nav ul li a.active {
-  color: var(--base-color);
-}
-
-body.active #header {
-  border-bottom: 1px solid var(--title-color);
-  background-color: black;
-  transition: .5s;
-}
-
-body.active #about {
-  background-color: black;
-  transition: .5s;
-}
-
-body.active #skills .swiper-slide {
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1);
-}
-
-body.active #skills .swiper-slide:nth-child(1n),
-#skills .swiper-slide:nth-child(2n),
-#skills .swiper-slide:nth-child(3n) {
-  background-color: var(--title-color);
-}
-
-body.active #projects {
-  background-color: black;
-  transition: .5s;
-}
-
-body.active #projects blockquote {
-  border-radius: 1rem;
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1)
-}
-
-body.active #header .logo {
-  color: var(--body-color);
-  transition: .5s;
-}
-
-body.active #header.scroll {
-  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.2)
-}
-
-body.active #contact ul li p {
-  color: var(--text-color-light);
-}
-
 /* ============ LAYOUT ============ */
 #header {
-  border-bottom: 1px solid #e4e4e4;
   margin-bottom: 2rem;
   display: flex;
   width: 100%;
@@ -233,12 +232,13 @@ body.active #contact ul li p {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: var(--body-color);
+  border-bottom: 1px solid var(--title-color);
+  background-color: black;
   transition: .5s;
 }
 
 #header.scroll {
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.2);
 }
 
 main {
@@ -280,9 +280,13 @@ footer {
 /* ============ LOGO ============ */
 
 .logo {
+  color: var(--body-color);
+  transition: .5s;
   font: 700 1.31rem 'Poppins', sans-serif;
+}
+
+footer .logo {
   color: var(--title-color);
-  transition: .5s; 
 }
 
 footer .logo-alt span {
@@ -291,7 +295,6 @@ footer .logo-alt span {
 
 .logo:hover {
   transition: .1s;
-  color: #000000ee;
   opacity: .85;
 }
 
@@ -498,8 +501,8 @@ nav.show div.icon-close {
 
 /* ============ ABOUT ============ */
 #about {
-  background-color: var(--body-color2);
-  transition: background-color .5s;
+  background-color: black;
+  transition: .5s;
 }
 
 #about .container {
@@ -695,8 +698,8 @@ nav.show div.icon-close {
 
 /* ============ PROJECTS ============ */
 #projects {
-  background-color: var(--body-color2);
-  transition: background-color .5s;
+  background-color: black;
+  transition: .5s;
 }
 
 #projects header {
