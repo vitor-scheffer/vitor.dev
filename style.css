@@ -279,6 +279,7 @@ footer {
   opacity: 1;
 
   transition: 1s;
+  z-index: 1;
 }
 
 /* ============ LOGO ============ */
@@ -1055,6 +1056,7 @@ footer .social a:hover {
   visibility: visible;
   opacity: 1;
   transform: translateY(0%);
+  z-index: 1;
 }
 
 #whatsapp-button.show a {
@@ -1074,6 +1076,6 @@ footer .social a:hover {
   left: -100px;
   top: -80px;
   width: auto;
-  height: 700px;
+  height: 900px;
 }
 }
