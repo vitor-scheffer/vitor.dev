@@ -1,6 +1,6 @@
 Projeto do meu portfólio pessoal mostrando meus repositórios e minha jornada de aprendizado.
 
-<a href="schefferdev.vercel.app/" target="_blank">
+<a href="https://schefferdev.vercel.app/" target="_blank">
   <img src="https://user-images.githubusercontent.com/103120313/181872470-91c742cc-8b34-48e2-a671-49250b7ce11e.png"></img>
 </a>
 
