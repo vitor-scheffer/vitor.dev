@@ -908,7 +908,7 @@ footer .social a:hover {
     margin: 0 1.5rem;
   }
 
-  /* services */
+  /* skills */
   #skills .container {
     display: flex;
     justify-content: center;
@@ -927,7 +927,7 @@ footer .social a:hover {
     height: 30rem;
   }
 
-  /* testimonials */
+  /* projects */
   #projects .container {
     margin-left: auto;
     margin-right: auto;
@@ -1071,5 +1071,9 @@ footer .social a:hover {
     top: -80px;
     width: auto;
     height: 900px;
+  }
+
+  .divider-2 {
+    height: 0.9px;
   }
 }
