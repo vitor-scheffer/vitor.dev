@@ -4,7 +4,7 @@ Projeto do meu portfólio pessoal mostrando meus repositórios e minha jornada d
   <img src="https://user-images.githubusercontent.com/103120313/181872470-91c742cc-8b34-48e2-a671-49250b7ce11e.png"></img>
 </a>
 
-O site pode ser acessado em: https://portfolio-murex-chi.vercel.app/
+O site pode ser acessado em: schefferdev.vercel.app/
 
 📲 Funcionalidades
 <ul>
