@@ -107,16 +107,16 @@ function check() {
 /* scroll reveal */
 const scrollReveal = ScrollReveal({
   origin: `top`,
-  distance: `30px`,
-  duration: 700,
+  distance: `80px`,
+  duration: 900,
   reset: true
 })
 
 scrollReveal.reveal(
-  `#home .image, #home.text,
+  `#home .image, #home .text, #home .home_social,
    #about .image, #about .text,
-   #services header, #services .card,
-   #testimonials header, #testimonials .testimonials
+   #skills h2,
+   #projects header, #projects .swiper-wrapper,
    #contact .text, #contact .links,
    #footer .brand, #footer .social
    `
