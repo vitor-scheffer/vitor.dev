@@ -729,7 +729,7 @@ nav.show div.icon-close {
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   max-width: 650px;
-  max-height: 400px;
+  max-height: 320px;
   transition: 0.3s;
 }
 
